@@ -1,0 +1,57 @@
+h1{
+    color: orange;
+}
+#si{
+    text-align: center;
+}
+h2{
+text-align: center;
+}
+#style{
+    color: rgb(4, 0, 7);
+    background-color: rgb(96, 96, 55);
+}
+body{
+    background-color: white;
+}
+#st{
+    color: rgb(30, 229, 30);
+}
+.ai{
+    font-style: oblique;
+    font-variant: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #eaeaea;
+}
+#p{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+#e{
+    color: #484348;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+#i{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;  
+}
+#r{
+    color: #484348;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+

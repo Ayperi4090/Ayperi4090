@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin:0 auto
+}
+header{
+    height: 10vh;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+main{
+    height: 90vh;
+    padding: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    }
+    main img{
+        height: 100%;
+        width: 90%;
+    }
+    header nav{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    header div{
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .text h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        color: #1a1a1a;
+        width: 30%;
+    }
+    .text p{
+        width: 45%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+        color: #AAAAAA;
+        width: 50%;
+    }
+    .text{
+        margin-bottom: 150px;
+    }
+    .rooms{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .rooms div{
+        width: 49%;
+        margin-bottom: 30px;
+    }
+    .rooms div p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #1A1A1A;
+    }
+
+    .rooms div img{
+        width: 100%;
+    }
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #1A1A1A;
+        margin-top: 120px;
+        
+    }
+    .top p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #4A4A4A;
+        margin-top: 15px;
+        margin-bottom: 90px;
+    }
+     .brands div img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .modular .container>div div{
+        width: 30%;
+    }
+    .headline{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 80px;
+    }
+    .headline h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+       color: #1A1A1A;
+       margin-top: 10vh;
+       margin-bottom: 10vh;
+    }
+    .headline a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        color: #46856E;
+        text-decoration: none;
+        margin-bottom: 50px;
+    }
+    .cost{
+        width: 90%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+    }
+    .cost h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        color: #1A1A1A;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .cost p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #AAAAAA;
+        margin-bottom: 20vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .advantages h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 52px;
+        color: #AAAAAA;
+        width: 40%;
+        margin-top: 10vh;
+        margin-bottom: 20px;
+    }
+     .advantages h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 52px;
+        color: #000000;
+    }
+    #menu{
+        display: none;
+    }
+    @media (max-width: 576px) {
+        #menu{
+            display: block;
+        }
+        .nav{
+            display: none;
+        }
+        .div{
+            display: none;
+        }
+        .container{
+            width: 90%;
+        }
+        .hr{
+            margin-bottom: 20px;
+        }
+        .main{
+            height: 25vh;
+        }
+        
+    }
+
+

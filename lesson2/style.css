@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+    background-color: aqua;
+}
+#stylee{
+    color: orange;
+    background-color: rgb(red, green, blue);
+
+}
+.aq{
+    color: lightcoral;
+}
+input[type="text"]{
+    background-color: aqua;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    /*background-color: aquamarine; */
+    background-image: url(http://pronewyork.org/wp-content/uploads/2013/06/N-yu-Jork-Skajlajn-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: cover; */
+    background-position: right top;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Qwitcher Grypen', cursive;rel="stylesheet">
+}
+ #ramka{
+    border: 5px solid white;
+    /*border-width: 5px;
+    border-style: double; */
+}
